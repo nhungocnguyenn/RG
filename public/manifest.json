@@ -1,6 +1,6 @@
 {
-  "short_name": "Landy",
-  "name": "Landy - React Template",
+  "short_name": "RecruitGenius",
+  "name": "RecruitGenius.ai",
   "icons": [
     {
       "src": "img/icons/logo192.png",
@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "img/icons/logo512.png",
+      "src": "img/icons/logo192.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -42,27 +42,27 @@ const Footer = ({ t }) => {
                     `Do you have any question regarding the project? Feel free to reach out.`
                   )}
                 </S.Para>
-                <a href="mailto:l.qqbadze@gmail.com">
+                <a href="mailto:hello@recruitgenius.ai">
                   <S.Chat>{t(`Let's Chat`)}</S.Chat>
                 </a>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Policy")}</S.Title>
                 <S.Large to="/" left="true">
-                  {t("Application Security")}
+                  {t("Data Processing Policy")}
                 </S.Large>
                 <S.Large left="true" to="/">
-                  {t("Software Principles")}
+                  {t("Term of Services")}
                 </S.Large>
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Empty />
+                {/* <S.Empty />
                 <S.Large left="true" to="/">
                   {t("Support Center")}
                 </S.Large>
                 <S.Large left="true" to="/">
                   {t("Customer Support")}
-                </S.Large>
+                </S.Large> */}
               </Col>
             </Row>
             <Row type="flex" justify="space-between">
@@ -81,12 +81,9 @@ const Footer = ({ t }) => {
                 <S.Large left="true" to="/">
                   {t("Blog")}
                 </S.Large>
-                <S.Large left="true" to="/">
-                  {t("Press")}
-                </S.Large>
-                <S.Large left="true" to="/">
+                {/* <S.Large left="true" to="/">
                   {t("Careers & Culture")}
-                </S.Large>
+                </S.Large> */}
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
@@ -122,7 +119,7 @@ const Footer = ({ t }) => {
                   />
                 </S.LogoContainer>
               </S.NavLink>
-              <S.FooterContainer>
+              {/* <S.FooterContainer>
                 <SocialLink
                   href="https://github.com/Adrinlol/create-react-app-adrinlol"
                   src="github.svg"
@@ -143,7 +140,7 @@ const Footer = ({ t }) => {
                   href="https://medium.com/@lashakakabadze/"
                   src="medium.svg"
                 />
-              </S.FooterContainer>
+              </S.FooterContainer> */}
             </Row>
           </Container>
         </S.Extra>

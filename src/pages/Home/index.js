@@ -18,6 +18,7 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <ContentBlock
+      
         type="right"
         first="true"
         title={IntroContent.title}
@@ -35,15 +36,14 @@ const Home = () => {
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
+        icon="create.svg"
         id="about"
       />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="send.svg"
         id="mission"
       />
 
@@ -51,7 +51,7 @@ const Home = () => {
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
+        icon="review.svg"
         id="product"
       />
       <ContactFrom

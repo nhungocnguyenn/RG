@@ -7,8 +7,8 @@
   "Contact": "Contact",
   "Do you have any question regarding the project? Feel free to reach out.": "Do you have any question regarding the project? Feel free to reach out.",
   "Let's Chat": "Let's Chat",
-  "Application Security": "Application Security",
-  "Software Principles": "Software Principles",
+  "Data Processing Policy": "Data Processing Policy",
+  "Term of Services": "Term of Services",
   "Support Center": "Support Center",
   "Customer Support": "Customer Support",
   "ADDRESS": "ADDRESS",
@@ -21,8 +21,8 @@
   "Submit": "Submit",
   "Message" : "Message",
   "Your Message": "Your Message",
-  "Name" : "Message",
+  "Name" : "Name",
   "Your Name": "Your Name",
-  "Email" : "Message",
-  "Your Email": "Your Message"
+  "Email" : "Email",
+  "Your Email": "Your Email"
 }
